@@ -52,3 +52,13 @@ When I added #main p { color: red; }, the white paragraph in the hero turned red
 | 8 | bugs.css line 21: .btn:hover had no semicolon after #0b1f3a | Styles pane (invalid value) | Added the semicolon. Without it, the hover color and pointer cursor both failed. |
 | 9 | bugs.css line 25: selector was .notes, but the HTML class is note | Styles pane (no rule on the paragraph) | Changed .notes to .note. The names must match exactly, so the rule never applied before. |
 | 10 | bugs.css line 27: grey text #999999 on white was too light | Lighthouse (contrast audit, only after fixing bug 9) | Changed it to #666666. Darker text is easier to read. It stayed hidden until bug 9 was fixed because the rule never applied. |
+
+## Live site observations (Lab 4, Task 7)
+ 
+1. Compare localhost (Task 1) with the live site: protocol, server header, and
+   Remote Address. What changed and why?
+2. What does the padlock and certificate tell the visitor, and what could an
+   attacker on the same Wi-Fi do if the site were plain http?
+3. Why was the Saved orders table empty on the live site, even though you saved
+   orders on localhost? (Hint: storage belongs to an origin.)
+4. Which HTTP status code did the missing page return, and who sent it?
