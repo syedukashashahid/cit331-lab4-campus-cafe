@@ -13,3 +13,7 @@ HTML5, CSS3 and a little JavaScript. No frameworks.
  
 ## Author
 Syed Ukasha Shahid, Roll No. 0031
+
+**Live site:** https://cit331-lab4-campus-cafe-gold.vercel.app/
+**Repository:** https://github.com/syedukashashahid/cit331-lab4-campus-cafe
+
